@@ -151,8 +151,7 @@ python Group_x_1.py --headless
 
 ## 👥 Student & Course Information
 
-- **Student Name:** Vishv Dalsaniya
-- **Enrolment Number:** KU2407U388
+- **Student Name & KU_ID:** Vishv Dalsaniya(KU2407U388), Aryan Thummar(KU2407U788), Jay Rangholiya(KU2407U842) 
 - **Program:** B.Tech Computer Science and Engineering (AI & ML)
 - **Semester:** VI
 - **Department:** Department of Computer Science & Engineering
