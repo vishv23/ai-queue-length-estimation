@@ -1,0 +1,5 @@
+Architecture,mAP50,mAP50_95,GPU_Latency_ms,FPS,Headcount_MAE,Length_Accuracy_pct,Params_M,FLOPs_G,Selection_Rank
+YOLOv8n,0.918,0.684,12.8,45.2,0.42,94.8,3.2,8.7,1
+Faster R-CNN,0.908,0.697,80.6,12.4,0.51,93.5,41.5,134.4,3
+SSD-MobileNetV2,0.783,0.512,9.2,58.1,1.48,82.3,4.3,3.8,4
+RT-DETR,0.917,0.702,32.5,30.8,0.46,94.1,32.0,108.0,2

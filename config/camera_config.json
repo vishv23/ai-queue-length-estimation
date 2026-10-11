@@ -1,0 +1,29 @@
+{
+    "camera_name": "Surveillance CAM-01",
+    "roi_polygon": [
+        [
+            170,
+            410
+        ],
+        [
+            170,
+            260
+        ],
+        [
+            800,
+            180
+        ],
+        [
+            800,
+            360
+        ]
+    ],
+    "counter_point": [
+        150,
+        360
+    ],
+    "pixels_per_meter": 38.0,
+    "default_service_time_sec": 45.0,
+    "alert_threshold_count": 8,
+    "alert_threshold_wait_min": 6.0
+}

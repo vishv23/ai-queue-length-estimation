@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Archives (redundant zip backups)
+*.zip
+
+# Virtual Environments
+venv/
+env/
+.env/
+
+# IDE / Editor configuration
+.idea/
+*.swp
+*.swo
+
+# Temporary and checkpoint files
+.ipynb_checkpoints/
+scratch/
+tmp/
+*.tmp

@@ -1,0 +1,7 @@
+{
+    "best_epoch": 35,
+    "best_val_loss": 0.5685,
+    "best_mAP50": 0.9199,
+    "architecture": "yolov8n.pt",
+    "saved_at": "2026-10-08 10:55:16"
+}

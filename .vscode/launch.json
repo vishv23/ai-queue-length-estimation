@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "▶ 1. Run Complete Project (1-Click: All CCTV Footages & Model Accuracy)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Group_x_1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "▶ 2. CCTV Feed 1 Only (Retail Checkout Counter)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Group_x_1.py",
+            "console": "integratedTerminal",
+            "args": ["--feed", "retail"]
+        },
+        {
+            "name": "▶ 3. CCTV Feed 2 Only (Elevated Pedestrian Flow)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Group_x_1.py",
+            "console": "integratedTerminal",
+            "args": ["--feed", "pedestrian"]
+        },
+        {
+            "name": "▶ 4. Model Accuracy & Benchmark Suite",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Group_x_1.py",
+            "console": "integratedTerminal",
+            "args": ["--benchmark"]
+        },
+        {
+            "name": "▶ 5. Evaluate Test Split (180 Real CCTV Samples)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Group_x_1.py",
+            "console": "integratedTerminal",
+            "args": ["--eval-data"]
+        }
+    ]
+}

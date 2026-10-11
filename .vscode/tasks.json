@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Complete Project (1-Click: All Feeds, Benchmarks & Reports)",
+            "type": "shell",
+            "command": "python Group_x_1.py",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run Live CCTV Feed 1 (Retail)",
+            "type": "shell",
+            "command": "python Group_x_1.py --feed retail",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Live CCTV Feed 2 (Pedestrian)",
+            "type": "shell",
+            "command": "python Group_x_1.py --feed pedestrian",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run 4-Model Benchmark Suite",
+            "type": "shell",
+            "command": "python Group_x_1.py --benchmark",
+            "problemMatcher": []
+        },
+        {
+            "label": "Compile All Reports & Research Papers (PDF & Word)",
+            "type": "shell",
+            "command": "python Group_x_1.py --compile-all",
+            "problemMatcher": []
+        }
+    ]
+}

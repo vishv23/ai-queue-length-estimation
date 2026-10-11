@@ -1,0 +1,5 @@
+Dataset,Citation,Resolution,Total_Frames,mAP50,Headcount_MAE,Key_Challenge
+MOT17 Benchmark,Milan et al. [6],1920x1080,11235,0.895,0.58,Pedestrian occlusions
+PETS 2009,Ferryman et al. [7],768x576,1588,0.931,0.38,Homography mapping
+Mall CCTV Dataset,Chen et al. [8],640x480,2000,0.908,0.49,Perspective scale delta (5x)
+Real CCTV Footage,Custom UIT Lab Feed,960x540,419,0.936,0.35,Real-time Little's Law latency
